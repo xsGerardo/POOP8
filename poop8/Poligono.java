@@ -27,6 +27,11 @@ public class Poligono {
     }
 } */
 
+/**
+ * Creación de una clase abstracta, la cual tiene un constructor vacío, y 
+ * tiene métodos abstractos, puesto que no devuelven nada.
+ * @author gerar
+ */
 public abstract class Poligono{
     public Poligono() {
     }

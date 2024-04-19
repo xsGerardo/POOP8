@@ -25,18 +25,24 @@ public class POOP8 {
         // Creación de una variable
         Poligono pol;
         
-        // Creación de objetos
+        // Creación de un objeto, es este caso, triangulo, que es de tipo poligono.
         pol = new Triangulo(10, 10);
         System.out.println(pol.area());
        
+        // Creación de un objeto, en este caso, cuadrado, que es de tipo poligono.
         pol = new Cuadrilatero(10, 10);
         System.out.println(pol.area());
         System.out.println(pol);
        
+        /**
+         * Creacion de un objeto de tipo objeto que se iguala al objeto poligono,
+         * despues imprime al objeto con ayuda de un casteo.
+         */
         identificadorDePoligonos(pol);
         Object obj = pol;
         System.out.println(obj.toString());
 
+        // Creación de un objeto de tipo poligono que imprime el area del poligono creado
         Poligono pol1;
         pol1 = (Poligono)obj;
         System.out.println(pol1.area());
@@ -48,6 +54,7 @@ public class POOP8 {
        
     }
 
+    // Método que identifica si las figuras se tratan de poligonos
     private static void identificadorDePoligonos(Poligono pol) {
         if (pol instanceof Triangulo){
             System.out.println("El triangulo es un poligono");

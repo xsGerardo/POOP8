@@ -9,10 +9,18 @@ package poop8;
  * @author gerar
  */
 
+// Creación de la clase Flauta
 public class Flauta {
+    
+    // Creación del constructor vacio
     public Flauta() {
     }
     
+    /**
+     * Uso del método tipoInstrumento, que retorna una cadena de texto con que el 
+     * nombre del instrumento que se tiene.
+     * @return 
+     */
     public String tipoInstrumento(){
         return "Flauta";
     }

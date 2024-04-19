@@ -5,11 +5,14 @@
 package poop8;
 
 /**
- *
+ * 
  * @author gerar
  */
+ //
 
+// Creación de una interfaz
 public interface InstrumentoMusical {
+    // Métodos de la interfaz
     void tocar();
     void afinar();
     String tipoInstrumento();
